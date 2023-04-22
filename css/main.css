@@ -27,7 +27,11 @@ body{
     box-sizing: border-box;
     padding-top:20px;
     padding-bottom: 20px;
+    
 }
+/* .item{
+    width: fit-content;
+} */
 .sidebar{
     width: 34%;
     float:left;
@@ -89,4 +93,28 @@ footer{
 }
 .site-nav a:hover{
     background-color: #e5e9dc;
+}
+img{
+    max-width: 100%;
+    height: auto;
+  
+}
+.image-banner{
+    position: relative;
+    padding-top: 20px;
+   
+}
+.image-banner img{
+    display: block;
+}
+.image-description{
+    max-width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #00000080;
+    padding-bottom: 0;
+
 }
