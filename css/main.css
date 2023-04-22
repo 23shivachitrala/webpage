@@ -1,23 +1,32 @@
 body{
-    background-color:#869960;
+    /* background-color:#869960; */
     font-family: Tahoma,sans-serif;
     font-size: 87%;
+    margin: 0;
+    padding: 0;
+   
 
 
 }
+header{
+   
+    background-color: #617140;
+}
 .container{
-     
-    margin-left: 40px;
-    margin-right:40px;
-    background-color: #fff;
-    padding-left: 40px;
-    padding-right:40px;
+     max-width: 940px;
+    margin: 0 auto;
+    background-color:#617140;
     box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .content-area{
     border-top: solid 3px #e5e9dc;
     border-bottom: solid 3px #e5e9dc;
 
+}
+.item{
+    text-indent: 5%;
 }
 
 .main-area{
@@ -36,7 +45,8 @@ body{
     width: 34%;
     float:left;
     
-    background-color: #e5e9dc;
+    /* background-color: #e5e9dc; */
+    background-image: linear-gradient(to bottom,#e5e9dc,#fff);
     padding:20px 40px;
     box-sizing: border-box;
     font-size: 85%;
@@ -52,6 +62,38 @@ body{
 .group{
     zoom:1;
 }
+.group ul li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+
+}
+.ui-menu a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-image: url(../images/sprites.png);
+}
+.home a{
+    background-position: 0px 0px;
+}
+.home a:hover{
+    background-position: 50px 0px;
+}
+.profile a{
+    background-position: 0px -50px;
+}
+.settings a{
+    background-position: 0px -100px;
+}
+.profile a:hover{
+    background-position: 50px -50px;
+}
+.settings a:hover{
+    background-position: 50px -100px;
+}
+
 header h1,p{
     margin: 0px;
 }
@@ -60,7 +102,7 @@ header h1{
     font-size: 165%;
 }
 header{
-    color: #617140;
+    color: #ffffff;
     padding-top:20px;
    
 }
@@ -81,18 +123,20 @@ footer{
 .site-nav li{
     list-style: none;
     float:left;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 .site-nav a{
     display:block;
-    color: #617140;
+    color: #fff;
     text-decoration: none;
     padding:10px 20px;
-    border:3px solid #e5e9dc;
+    border:0.5px solid #e5e9dc;
     border-bottom: none;
 }
 .site-nav a:hover{
-    background-color: #e5e9dc;
+    /* background-color: #e5e9dc; */
+    background-image: linear-gradient(to bottom, #e5e9dc, #fff);
+  
 }
 img{
     max-width: 100%;
